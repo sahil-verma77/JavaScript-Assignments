@@ -3,5 +3,8 @@ const cartItems = [
     {name: "Keyboard", price: 1000, quantity: 1}
 ];
 
-const finalCartTotal = cartItems.reduce((total, item) => total + (item.price * item.quantity), 0);
+// const finalCartTotal = cartItems.reduce((total, item) => total + (item.price * item.quantity), 0);
+
+// // Or
+const finalCartTotal = cartItems.reduce((acc, {price, quantity}) => acc + (price * quantity), 0);
 console.log(finalCartTotal);

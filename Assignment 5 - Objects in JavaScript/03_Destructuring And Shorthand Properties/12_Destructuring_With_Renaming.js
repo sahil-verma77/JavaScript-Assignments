@@ -3,5 +3,5 @@ const product = {
     price: 50000
 };
 
-const {name: productName} = product;
+const { name: productName, price } = product;
 console.log(productName);

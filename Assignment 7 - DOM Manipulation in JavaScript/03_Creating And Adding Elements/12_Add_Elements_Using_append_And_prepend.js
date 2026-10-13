@@ -1,17 +1,17 @@
-const list = document.querySelector("#skills-1");
+const skills = document.querySelector("#skills-1");
 
 let firstSkill = document.createElement('li');
-firstSkill.textContent = "HTML";
-
 let lastSkill = document.createElement('li');
+
+firstSkill.textContent = "HTML";
 lastSkill.textContent = "React";
 
-list.prepend(firstSkill);
-list.append(lastSkill);
+skills.prepend(firstSkill);
+skills.append(lastSkill);
 
 // // Or 
 
-const list2 = document.querySelector("#skills-2");
+const skills2 = document.querySelector("#skills-2");
 
-list2.prepend("HTML, ");
-list2.append(", React");
+skills2.prepend("HTML, ");
+skills2.append(", React");

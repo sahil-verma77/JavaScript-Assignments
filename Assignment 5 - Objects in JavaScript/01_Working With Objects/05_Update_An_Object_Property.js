@@ -3,8 +3,8 @@ const user = {
     role: "student"
 };
 
-user.role = "developer";
+user.role = "developer"; // dot notation
 // // Or
-// user["role"] = "developer";
+// user["role"] = "developer"; // bracket notation
 
 console.log(user);

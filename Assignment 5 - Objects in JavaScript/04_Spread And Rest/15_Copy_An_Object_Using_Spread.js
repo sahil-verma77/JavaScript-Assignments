@@ -5,5 +5,7 @@ const user = {
 };
 
 const newUser = {...user};
+// user.name = "random";
+
 console.log("user:", user);
 console.log("newUser:", newUser);

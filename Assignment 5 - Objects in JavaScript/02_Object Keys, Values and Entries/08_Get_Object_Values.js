@@ -5,4 +5,6 @@ const product = {
 };
 
 const productValues = Object.values(product);
+// returns array of values --> [ 'Laptop', 50000, 'Electronics' ]
+
 console.log(productValues);

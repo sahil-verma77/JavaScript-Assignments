@@ -1,8 +1,20 @@
+// Method - 1 :-
+// const body = document.querySelector("body");
+// const originalButton = document.querySelector("#btn");
+
+// let clonedButton = originalButton.cloneNode(true);
+// clonedButton.textContent = "I am Cloned Button";
+// clonedButton.removeAttribute('id');
+
+// body.appendChild(clonedButton);
+
+
+// ----------x----------x----------x----------x----------x----------
+
+
+// Method - 2 :-
+const body = document.querySelector("body");
 const originalButton = document.querySelector("#btn");
-const buttonContainer = document.querySelector("#button-container");
+const clonedButton = originalButton.cloneNode(true);
 
-let clonedButton = originalButton.cloneNode(true);
-clonedButton.textContent = "I am Cloned Button";
-clonedButton.removeAttribute('id');
-
-buttonContainer.appendChild(clonedButton);
+body.append(clonedButton);

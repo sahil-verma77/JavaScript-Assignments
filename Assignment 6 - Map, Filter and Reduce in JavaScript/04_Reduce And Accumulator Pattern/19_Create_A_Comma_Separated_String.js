@@ -1,11 +1,14 @@
 const frontendTech = ["HTML", "CSS", "JavaScript"];
 
-const joinedString = frontendTech.reduce((acc, tech) => `${acc}, ${tech}`);
-// // Or
-// const joinedString = frontendTech.reduce((accumulator, currentTech, index) => {
-//     if (index === 0) return currentTech;
-//     return accumulator + ", " + currentTech;
-// })
+// Method - 1
+// const techString = frontendTech.join(", ");
 
-const finalString = `"${joinedString}"`;
-console.log(finalString);
+// Method - 2
+const techString = frontendTech.reduce((acc, cur) => {
+    return acc + ", " + cur;
+})
+
+// Method - 3
+// const techString = frontendTech.reduce((acc, tech) => `${acc}, ${tech}`);
+
+console.log(techString);

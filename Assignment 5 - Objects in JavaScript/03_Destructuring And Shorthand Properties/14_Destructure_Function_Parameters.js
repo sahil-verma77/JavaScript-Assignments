@@ -3,7 +3,7 @@ const user = {
     email: "rahul@example.com"
 };
 
-function displayUser( {name, email} ) {
+function displayUser({ name, email }) {
     console.log(name);
     console.log(email);
 };

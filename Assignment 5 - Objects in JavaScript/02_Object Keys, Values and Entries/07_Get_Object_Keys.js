@@ -5,4 +5,6 @@ const user = {
 };
 
 const propertyNames = Object.keys(user);
+// returns array of keys --> [ 'name', 'email', 'role' ]
+
 console.log(propertyNames);

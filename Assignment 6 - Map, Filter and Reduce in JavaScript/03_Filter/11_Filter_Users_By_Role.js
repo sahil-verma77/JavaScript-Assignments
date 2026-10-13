@@ -4,4 +4,12 @@ const users = [
 ];
 
 const devUser = users.filter((user) => user.role === "developer");
+
+// // Or
+// const devUser = users.filter((user) => {
+//     if (user.role === "developer") {
+//         return user;
+//     }
+// });
+
 console.log(devUser);

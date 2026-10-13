@@ -1,5 +1,3 @@
-const date = new Date();
-
 const currentTimestamp = Date.now();
 console.log(`Current Timestamp: ${currentTimestamp}`);
 

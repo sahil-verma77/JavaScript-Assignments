@@ -4,6 +4,5 @@ const user = {
     role: "developer"
 };
 
-const {name, email} = user;
-console.log(name);
-console.log(email);
+const { name, email } = user; // Object destructuring
+console.log(name, email);

@@ -6,3 +6,8 @@ colors.forEach(value => console.log(value));
 // colors.forEach(function(value) {
 //     console.log(value);
 // })
+
+// // Or
+// for (let i = 0; i < colors.length; i++) {
+//     console.log(colors[i]);
+// }

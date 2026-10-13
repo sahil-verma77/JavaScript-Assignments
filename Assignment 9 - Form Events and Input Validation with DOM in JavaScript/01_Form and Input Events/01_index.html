@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment - 8</title>
+    <link rel="stylesheet"
+        href="/JavaScript/JavaScript Assignments/Assignment 9 - Form Events and Input Validation with DOM in JavaScript/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body class="flex flex-col items-start gap-10 font-serif text-lg font-medium m-5">
+
+    <form action="" id="form">
+        <input type="text" class="border border-black px-2" placeholder="Enter your name:" style="width: 250px">
+        <button type="submit">Submit</button>
+    </form>
+    <p id="display-text"></p>
+    <!-- Script 1: -->
+    <script src="01_Handel_Form_Submit_Event.js"></script>
+
+
+    <form action="" id="form-2">
+        <input type="text" class="border border-black px-2" placeholder="Enter your name:" style="width: 250px">
+        <button type="submit">Submit</button>
+    </form>
+    <!-- Script 2: -->
+    <script src="02_Prevent_Form_Submission.js"></script>
+
+
+    <!-- <div>
+        <input id="input-3" type="text" class="border border-black px-2" placeholder="Enter anything..." style="width: 250px">
+        <p id="display-text-3"></p>
+    </div> -->
+    <form action="" id="form-3">
+        <input id="input-3" type="text" class="border border-black px-2" placeholder="Enter anything..."
+            style="width: 250px">
+        <p id="display-text-3"></p>
+    </form>
+    <!-- Script 3: -->
+    <script src="03_Display_Input_Using_The_Input_Event.js"></script>
+
+
+    <form action="" id="form-4">
+        <label for="lang">Programming Languages:</label>
+        <select name="lang" id="lang">
+            <option value="" disabled selected>---Select---</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+        </select>
+    </form>
+    <p id="display-text-4"></p>
+    <!-- Script 4: -->
+    <script src="04_Detect_Changes_Using_The_Change_Events.js"></script>
+
+
+    <input id="input-5" type="text" class="border border-black px-2" placeholder="Enter anything..."
+        style="width: 250px">
+    <!-- Script 5: -->
+    <script src="05_Handel_The_Focus_Event.js"></script>
+
+
+    <input id="input-6" type="text" class="border border-black px-2" placeholder="Enter anything..."
+        style="width: 250px">
+    <p id="display-text-6"></p>
+    <!-- Script 6: -->
+    <script src="06_Handel_The_Blur_Event.js"></script>
+</body>
+
+</html>
